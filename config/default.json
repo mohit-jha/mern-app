@@ -1,0 +1,4 @@
+{
+"mongoURL":"mongodb+srv://MERN:TCWwhn9dEXM9zatv@cluster0.wkjdo.mongodb.net/MERN?retryWrites=true&w=majority",
+"jwtSecret":"SLMohitjfhhjjasf"
+}

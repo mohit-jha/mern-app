@@ -1,0 +1,416 @@
+*{
+}
+
+.fade-enter{
+  opacity: 0.01;
+  }
+  .fade-enter-active{
+    opacity: 1;
+    transition: opacity 1000ms ease-in;
+  }.fade-exit{
+    opacity: 1;
+  }.fade-exit-active{
+    opacity: 0.01;
+    transition: opacity 1000ms ease-in;
+  }
+  
+  /* .ml{
+  text-align: end;
+  align-items: flex-end;
+  flex-direction: row;
+  }
+  .mr{
+    margin-left: 1rem;
+  }
+   */
+  
+   select{
+     height: 40px;
+   }
+  
+  
+   svg {
+    display: block;
+    width: 100%;
+    height: 300px;
+  }
+  .mid{
+    text-align: center;
+  }
+  select{
+    width: 27%;
+  }
+  .geo{
+    margin-bottom: 60px;
+    }
+  h2{
+    margin: 50px 0 10px 0;
+  }
+  svg .country:hover {
+    stroke: black;
+    stroke-width: 1px;
+    cursor: pointer;
+  }
+  
+  #root {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 50px 150px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  /* button {
+    width: 100px;
+    border: 1px solid black;
+    margin: 0 auto 5px;
+  } */
+  
+  Button.xbtn{
+  
+          position: absolute;
+          /* right: 0.5rem;   */
+          margin-top: -2.48rem;
+          margin-left: 82px;
+          /* z-index: 1px; */
+  
+  }
+  
+  Button.viewBtn{
+    /* position: absolute; */
+          -left: -20px;
+          /* padding: 300px; */
+  }
+  div.viewDiv{
+  
+    margin-right: 30px;
+  }
+  .viewbtn{
+  position: absolute;
+  margin-top: -3.1rem;
+  /* margin: 10re 12rem;     */
+  
+  }
+  Button.xxbtn{
+  
+    position: absolute;
+    left: 2rem;
+    margin-top:   11.3rem;
+    /* z-index: 1px; */
+    /* margin-right: 120px; */
+  
+  }
+  
+  
+  
+  Button.closeBtn{
+    position: absolute;
+    left: 6.3rem;
+    margin-top: -31.7rem;
+    /* z-index: 1px; */
+    
+  }
+  
+  .grid{
+    border: 1px solid black;
+    margin: 12px 40px;
+    box-shadow: 10px;
+    border-style: double;
+    border-radius: 5px;
+  }
+  
+  .imgList{
+  
+    width: 70px;
+    height: 70px;
+  }
+   
+  
+  div.sortbtn {
+    display: flex;
+    /* flex-direction: column; */
+    width: 12%;
+    margin-left: 145px;
+    padding: 10px;
+    align-items: center;
+    height: 40px;
+    width: 20px;
+  }
+  
+   div.sortbtn :hover{
+    /* color: red */
+    
+  }
+  div.sortbtn :active{
+    color: #CCFFE6;
+  }
+  
+  .btnb{
+    margin-top: 22px;
+    margin-left: -24px;
+  }
+  
+  Button.aqua{
+    background-color: white;
+    color: black;
+    font-size: 4px;
+    width: 40px;
+    height: 20px;
+    padding: 20px;
+    border: hidden;
+  }
+  
+  div.menu{
+    /* color: black; */
+    text-decoration: none;
+    color: black !important;
+    
+    border-bottom: 1px solid rgb(116, 105, 105);
+    font-weight: 600;
+  }
+  
+  div.searchresult{
+    margin-left: 41%;
+  }
+  
+  
+  
+  
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    /* color: rgba(0,0,0,.87); */
+  }
+  
+  #root {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .full-width-height {
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .container {
+    width: calc(100% - 32px);
+    height: calc(100% - 32px);
+    padding: 16px;
+  }
+  
+  .no-margin {
+    margin: 0;
+  }
+  
+  .display-flex {
+    display: flex;
+  }
+  
+  .fill {
+    flex: 1;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .mt16 {
+    margin-top: 16px;
+  }
+  
+  
+  
+  .modalL {
+    /* position: relative;
+     */
+  margin-left: -20rem;
+  margin-top: 20px;
+  height: 200%;
+  padding-bottom: 100px;
+  
+  }
+  
+  .modalForRange{
+  width: 130%;
+  }
+  
+  .modalR {
+    /* position: relative;
+     */
+  margin-left: 20rem;
+  margin-top: 20px;
+  height: 100%;
+  padding-bottom: 100px;
+  
+  }
+  
+  .modalBody{
+    height: 300px;
+  }
+  
+  .btnOfSubmit{
+    margin-left: 15.3rem;
+    margin-top: -3.4rem;
+    display: flex;
+    width: 5rem;
+    padding: auto;
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 2.5rem;
+    font-size: larger;
+    align-items: center;
+    font-weight: 100;
+    background-color: black;
+    color: white;
+    /* padding: 200px; */
+  }
+  
+  
+  
+  
+  
+  
+  svg {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+
+
+  .menu{
+    /* color: black; */
+    text-decoration: none;
+    color: rgb(245, 230, 230) !important;
+ font-family: 'Baloo Bhai 2', cursive;;
+    
+    border-bottom: 1px solid#CCFFE6;
+    font-weight: 600;
+    margin: 0px 4px;
+}
+
+.navbar a{
+  text-decoration: none;
+  padding: auto;
+  color: rgb(247, 243, 243);
+  margin-left: 9px;
+  margin-right: 9px;
+ font-family: 'Baloo Bhai 2', cursive;;
+
+}
+
+.navbar a:hover{
+  color: #CCFFE6;
+}
+
+Button.saveBtn{
+  float: right;
+  margin-right: 10px;
+  /* margin-left: 63rem;
+  margin-top: -3rem; */
+ font-family: 'Baloo Bhai 2', cursive;;
+
+}
+Button.downloadBtn{
+  margin-right: 63rem;
+  margin-top: -3rem;
+
+}
+Button.btnAdjClr{
+  margin: 0px 1rem;
+}
+.allBtnMap{
+  margin-left: 25%;
+}
+
+Button.saveBtnV{
+  position: relative;
+          /* right: 0.5rem;   */
+          margin-top: -3.48rem;
+          /* margin-left: auto; */
+          /* z-index: 1px;
+          floa */
+          display: flex;
+          flex-direction: column;
+
+  float: right;
+  margin-right: 10px;
+
+}
+
+
+svg {
+  display: block;
+  width: 100%;
+  height: 60vh;
+  /* margin-top: 100px; */
+}
+
+/* select{
+  width: 27%;
+} */
+.geo{
+  margin-bottom: 60px;
+  }
+
+svg .country:hover {
+  stroke: black;
+  stroke-width: 1px;
+  cursor: pointer;
+}
+
+/* #root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 50px 150px;
+  text-align: center;
+  box-sizing: border-box;
+} */
+
+
+
+
+#btnContainer{
+  display: flex;
+  
+  /* align-items: flex-end; */
+  /* align-items: center; */
+}
+.btnContainer{
+  display: flex;
+  position: absolute;
+  right: 15rem;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+.addItem{
+  display: flex;
+  position: absolute;
+  left: 11rem;
+  bottom: -2.4rem;
+  padding-top: 100px;
+}
+
+.btnViewList{
+  position: absolute;
+  right: -1rem;
+}
+
+.btnDelList{
+display: flex;
+position: absolute;
+right: -2rem;
+}
+
+.btnSetRange{
+  position: absolute;
+  left: 100px;
+  top: 1rem;
+}
